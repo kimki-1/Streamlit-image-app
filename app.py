@@ -6,7 +6,7 @@ from datetime import datetime
 def load_image(image_file) :
     img = Image.open(image_file) 
     return img 
-
+# 깃연동 
 # 디렉토리와 이미지를 주면, 해당 디렉토리에 이미지를 저장하는 ㅏㅁ수 
 def save_uploaded_file(directory, img) :
 
